@@ -1,31 +1,31 @@
- /* Let us start a quiz contest*/
+/* Let us start a quiz contest*/
     import java.util.*;
-    class test
+    public class Main
     {
-     test()
+     Main()
      {
      }
-    void drawLine()
+    static void drawLine()
     {
     System.out.println("--------------------------------------------------------------------------------------------");
     }//draw a line 
-    void correctAns()
+    static void correctAns()
     {
     System.out.println("Yes , your answer is absolutely right !!!!");
     }//to display
-    void wrongAns()
+    static void wrongAns()
     {
     System.out.println("No , your answer is wrong !!!!");
     }//to display
-    void tryThis()
+    static void tryThis()
     {
     System.out.println("Now , answer this question .");
     }//to display 
-    void myAns()
+    static void myAns()
     {
     System.out.println("My answer is - ");
     }//to display 
-    void quizRules()
+    static void quizRules()
     {
         System.out.println("\n Quiz Rules\n");
         drawLine();
@@ -38,7 +38,7 @@
     System.out.println("Go ahead and enjoy answering ,All the best !!!!");
     drawLine();
     }// to display rules 
-        public void main(String args[])
+        public  static void main(String args[])
     {
     int c = 0;
     int cor=0;
@@ -375,6 +375,3 @@
     }//switch case for feedback
     }//main
     }//class
-
-
-
