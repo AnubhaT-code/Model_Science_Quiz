@@ -2,6 +2,9 @@
     import java.util.*;
     class test
     {
+     test()
+     {
+     }
     void drawLine()
     {
     System.out.println("--------------------------------------------------------------------------------------------");
@@ -35,7 +38,7 @@
     System.out.println("Go ahead and enjoy answering ,All the best !!!!");
     drawLine();
     }// to display rules 
-        void main()
+        public static void main(String args[])
     {
     int c = 0;
     int cor=0;
