@@ -38,7 +38,7 @@
     System.out.println("Go ahead and enjoy answering ,All the best !!!!");
     drawLine();
     }// to display rules 
-        public static void main(String args[])
+        public void main(String args[])
     {
     int c = 0;
     int cor=0;
