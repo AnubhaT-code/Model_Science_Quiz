@@ -52,12 +52,12 @@
     String S=sc.nextLine();
     drawLine();
     System.out.println("Press 1 – to know the rules  \n  Press any other number to start answering  ");
-    int pch=sc.nextInt();
+    char pch=sc.next().charAt(0);
     drawLine();
     drawLine();
     switch (pch)
     {
-    case  1 :quizRules();
+    case  '1' :quizRules();
                    drawLine();
     default : 
     System.out.println("Q 1 : Generally , Leaves are green in colour due to the presence of -");
@@ -330,25 +330,25 @@
     case 26 :
     case 27 :
     case 28 :
-     System.out.println("Grade –D , satisfactory") ;
+     System.out.println("Grade – D , satisfactory") ;
                   break;
     case 29 :
     case 30 :
     case 31 :
     case 32 :
-     System.out.println("Grade –C ,Good ") ;
+     System.out.println("Grade – C ,Good ") ;
                    break;
     case 33 :
     case 34 :
     case 35 :
     case 36 :
-     System.out.println("Grade –B ,Very Good ") ;
+     System.out.println("Grade – B ,Very Good ") ;
                    break;
     case 37 :
     case 38 :               
     case 39 :
     case 40 :
-     System.out.println("Grade –A,Excellent") ;
+     System.out.println("Grade – A,Excellent") ;
                     break;
     default:
      System.out.println("Sorry , you need to work hard ") ;
@@ -360,9 +360,11 @@
     char php = sc.next().charAt(0);
     switch (php)
     {
-    case 'Y' : System.out.println("Thank you !!!!!!") ;
+    case 'Y' : 
+    case 'y' :System.out.println("Thank you !!!!!!") ;
                   break;
-    case 'N': System.out.println("We would try our best to make it good next time ") ;
+    case 'N': 
+    case 'n':System.out.println("We would try our best to make it good next time ") ;
                    break;
     default : System.out.println("Sorry , we could not read your feedback ") ;
     }
