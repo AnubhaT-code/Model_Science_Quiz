@@ -1,8 +1,8 @@
 /* Let us start a quiz contest*/
     import java.util.*;
-    public class Main
+    public class quiz
     {
-     Main()
+     quiz()
      {
      }
     static void drawLine()
